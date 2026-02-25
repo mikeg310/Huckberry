@@ -29,7 +29,7 @@ const LogoBlock: React.FC<LogoBlockProps> = ({
 }) => {
   const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
 
-  const gridCols = { 3: 'grid-cols-3', 4: 'grid-cols-4', 5: 'grid-cols-5', 6: 'grid-cols-6' };
+  const gridCols = { 3: 'grid-cols-2 sm:grid-cols-3', 4: 'grid-cols-2 sm:grid-cols-4', 5: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-5', 6: 'grid-cols-2 sm:grid-cols-3 lg:grid-cols-6' };
 
   return (
     <ColorSchemeWrapper colorScheme={colorSchemeNew} padding="none">
