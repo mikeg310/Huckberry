@@ -46,7 +46,7 @@ const StatPodStatic: React.FC<Props> = ({
         {stats.map((stat, index) => (
           <div key={index} className="text-center">
             {stat.description && <p className="text-lg mb-2">{stat.description}</p>}
-            <div className="text-6xl lg:text-7xl font-bold leading-none" style={{ fontFamily: "var(--font-display, 'Outfit', sans-serif)" }}>
+            <div className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-none" style={{ fontFamily: "var(--font-display, 'Outfit', sans-serif)" }}>
               {stat.prefix && <span className="mr-1">{stat.prefix}</span>}
               {stat.value}
               {stat.suffix && <span className="ml-1">{stat.suffix}</span>}
