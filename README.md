@@ -9,6 +9,7 @@ A personalized sales page comparing Huckberry's current Zendesk + Alhina CX stac
 ```bash
 npm install
 npm run dev
+
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
